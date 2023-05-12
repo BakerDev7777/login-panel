@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Panel</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+     <header class="header">
+        <a href="#" class="logo">Logo</a>
+
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contato</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+     </header>
+
+     <section class="section">
+        <div class="wrapper">
+            <span class="icon-close">
+                <i class='bx bx-x' ></i>
+            </span>
+
+            <div class="logreg-box">
+                <div class="form-box login">
+                    <div class="logreg-title">
+                     <h2>Login</h2>
+                     <p>Faça o login para usar a plataforma.</p>
+                </div>
+
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                        <input type="password" required>
+                        <label>Senha</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">
+                        Lembrar senha</label>
+                        <a href="#">Esqueceu a senha?</a>
+                    </div>
+
+                    <button type="submit" 
+                    class="btn">Login</button>
+
+                    <div class="logreg-link">
+                        <p>Não possui uma conta? <a href="#"
+                            class="register-link">Register</a></p>
+                    </div>
+                </div>
+                </form>
+
+                <!-- register -->
+                <div class="form-box register">
+                    <div class="logreg-title">
+                     <h2>Registrar</h2>
+                     <p>Forneça seus dados para verificar a sua identidade</p>
+                </div>
+
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-user' ></i></span>
+                        <input type="text" required>
+                        <label>Nome e Sobrenome</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                        <input type="password" required>
+                        <label>Senha</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">
+                        Eu aceito os termos e condições</label>
+                    </div>
+
+                    <button type="submit" 
+                    class="btn">Registrar-se</button>
+
+                    <div class="logreg-link">
+                        <p>Já possui uma conta? <a href="#"
+                            class="login-link">Logar-se</a></p>
+                    </div>
+                </div>
+
+            </div>
+
+        <div class="media-options">
+            <a href="#">
+                <i class='bx bxl-google' ></i>
+                <span>Login with Google</span>
+            </a>
+            <a href="#">
+                <i class='bx bxl-facebook-circle' ></i>
+                <span>Login with Facebook</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+     <script src="script.js"></script>
+</body>
+</html>
